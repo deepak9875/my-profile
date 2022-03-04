@@ -1,1 +1,80 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  /* FONT SIZE */
+  --font-4xl: 71px;
+  --font-3xl: 48px;
+  --font-2xl: 38px;
+  --font-xl: 24px;
+  --font-lg: 22px;
+  --font-md: 20px;
+  --font-sm: 18px;
+  --font-xs: 16px;
+  --font-2xs: 14px;
+  --font-3xs: 12px;
+  /* COLOR */
+  --color-black: #000000;
+  --color-pink-300: #fd4766;
+}
+.fs_xs {
+  font-size: var(--font-xs) !important;
+}
+
+.fs_sm {
+  font-size: var(--font-sm) !important;
+}
+
+.fs_md {
+  font-size: var(--font-md) !important;
+}
+
+.fs-2xs {
+  font-size: var(--font-2xs) !important;
+}
+
+.fs_xl {
+  font-size: var(--font-xl) !important;
+}
+
+.fs_2xl {
+  font-size: var(--font-2xl) !important;
+}
+.fs_4xl {
+  font-size: var(--font-4xl);
+}
+
+.fw_regular {
+  font-weight: 400;
+}
+
+.fw_300 {
+  font-weight: 300;
+}
+
+.fw_medium {
+  font-weight: 500;
+}
+.fw_semi_bold {
+  font-weight: 600;
+}
+.fw_bold {
+  font-weight: 700;
+}
+/* COLOR */
+.color_green {
+  color: var(--color-green) !important;
+}
+
+.bg_light_brown {
+  background-color: #e9e4c6;
+}
+
+.color_black {
+  color: var(--color-black) !important;
+}
+
+.color_white {
+  color: var(--color-white) !important;
+}
+
+.color_lightpink {
+  color: var(--color-pink-300) !important;
+}

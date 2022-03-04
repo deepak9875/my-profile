@@ -1,0 +1,68 @@
+.greenbtn.false {
+  border-radius: 10px;
+  background-color: var(--color-green);
+  border: 1px solid var(--color-green);
+  color: white;
+  font-size: var(--font-sm);
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.greenbtn:hover {
+  border-radius: 10px;
+  background-color: white;
+  font-size: var(--font-sm);
+  font-weight: 500;
+
+  border: 1px solid var(--color-green);
+  color: var(--color-green);
+}
+
+.gold-btn.false {
+  border-radius: 10px;
+  background-color: var(--color-pink);
+  border: 1px solid var(--color-pink);
+  font-weight: 500;
+  font-size: var(--font-sm);
+
+  color: var(--color-lightBlack);
+  transition: 0.3s;
+}
+
+.gold-btn:hover {
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid var(--color-pink);
+  color: var(--color-lightBlack);
+  transition: 0.3s;
+  font-weight: 500;
+  font-size: var(--font-sm);
+}
+
+.btn-disable.false {
+  background: rgba(56, 118, 101, 0.5);
+  border-radius: 10px;
+  font-size: var(--font-sm);
+  font-weight: 500;
+  border: 1px solid rgba(56, 118, 101, 0.5);
+  transition: 0.3s;
+  color: var(--color-white);
+  cursor: unset;
+}
+
+.small {
+  width: 166px;
+  height: 46px;
+}
+
+.extrasmall {
+  width: 117px;
+  height: 46px;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999 !important;
+  background: rgba(56, 118, 101, 0.5) !important;
+  color: white !important;
+}
